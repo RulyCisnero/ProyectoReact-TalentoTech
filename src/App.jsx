@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Layout from "./componentes/layout/Layout";
-import ListaProductos from "./componentes/productos/ListaProductos"; "./componentes/Productos/ListaProductos";
+import ListaProductos from "./componentes/productos/ListaProductos";
 import FormularioContainer from "./componentes/FormularioProducto/FormularioContainer";
 import Inicio from "./componentes/Inicio/Inicio";
 import { ItemDetailContainer } from "./componentes/productos/ItemDetailContainer";
