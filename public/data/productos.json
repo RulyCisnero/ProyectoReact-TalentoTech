@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Donitas Mostaza",
+        "precio": 10000,
+        "descripcion": "Donitas mostaza con argollas doradas de 16mm. Para el uso diario. Para todos los modelos consultar por argollas de acero tradicional (plateado).",
+        "imagen": "/image/dona_Amarilla.jpeg",
+        "hotsale": true
+    },
+    {
+        "id": 2,
+        "nombre": "Donitas miti miti",
+        "precio": 10000,
+        "descripcion": "Donitas mitad azul mitad beige, con argolla dorada de 16 mm. Para el uso diario.",
+        "imagen": "/image/dona_azul_blanca.jpeg",
+        "hotsale": true
+    },
+    {
+        "id": 3,
+        "nombre": "Donitas Blancas con pintitas",
+        "precio": 10000,
+        "descripcion": "Donitas blancas con pintitas de té, argollas doradas de 16 mm. Para el uso diario.",
+        "imagen": "/image/dona_blanca_c_pintas.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 4,
+        "nombre": "Donitas Bordó",
+        "precio": 10000,
+        "descripcion": "Donitas bordo con argollas doradas de 16mm. Para el uso diario.",
+        "imagen": "/image/dona_bordo.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 5,
+        "nombre": "Donitas Dalmata",
+        "precio": 10000,
+        "descripcion": "Donitas beige con pintitas negras, argollas doradas de 16mm. Para el uso diario.",
+        "imagen": "/image/dona_dalmata.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 6,
+        "nombre": "Donitas verde muzgo con pintitas",
+        "precio": 10000,
+        "descripcion": "Donitas verde muzgo con pintitas de té, argollas doradas de16 mm. Para el uso diario.",
+        "imagen": "/image/dona_gris_pintas.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 7,
+        "nombre": "Donitas marmoladas",
+        "precio": 10000,
+        "descripcion": "Donitas blanco y verde con pintitas de té, argollas doradas de 16mm. Para el uso diario.",
+        "imagen": "/image/dona_verde.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 8,
+        "nombre": "Donitas miti miti violetas",
+        "precio": 10000,
+        "descripcion": "Donitas mitad violeta mitad lila, con argollas doradas de 16mm. Para el uso diario.",
+        "imagen": "/image/dona_violetas.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 9,
+        "nombre": "Aros Flor Blanca",
+        "precio": 9500,
+        "descripcion": "Aro colgante tipo anzuelo, flores blancas, acero dorado. Ideal para eventos.",
+        "imagen": "/image/flor_blanca.jpeg",
+        "hotsale": false
+    },
+    {
+        "id": 10,
+        "nombre": "Aros Flor Bordó",
+        "precio": 9500,
+        "descripcion": "Aro colgante tipo anzuelo, flores bordó, acero dorado. Ideal para eventos.",
+        "imagen": "/image/flor_bordo.jpeg",
+        "hotsale": true
+    }
+]

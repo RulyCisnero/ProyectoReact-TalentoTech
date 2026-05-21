@@ -1,0 +1,21 @@
+.header {
+  background-color: #aa9898;
+  color: white;
+  padding: 1rem;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,99 @@
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.product-detail {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 
+    "image title"
+    "image description"
+    "image price"
+    "image button";
+  gap: 1rem;
+  max-width: 900px;
+  width: 100%;
+  background: #111;
+  border: 2px solid #0f0;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #0f0;
+  padding: 1.5rem;
+}
+
+.product-detail img {
+  grid-area: image;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #0f0;
+}
+
+.product-detail h3 {
+  grid-area: title;
+  font-size: 1.4rem;
+  color: #0f0;
+  margin: 0;
+}
+
+.product-detail p {
+  grid-area: description;
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.4;
+}
+
+.product-detail .price {
+  grid-area: price;
+  font-size: 1.2rem;
+  color: #8a2be2;
+  margin-bottom: 0.5rem;
+}
+
+/* Contenedor de acciones */
+.item-actions {
+  grid-area: button;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Botón dentro de item-actions */
+.item-actions button {
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+  box-shadow: 0 0 10px #8a2be2;
+  transition: 0.3s;
+}
+
+.item-actions button:hover {
+  background-color: #0f0;
+  color: #111;
+  box-shadow: 0 0 15px #0f0;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .product-detail {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "title"
+      "description"
+      "price"
+      "button";
+    text-align: center;
+  }
+
+  .product-detail img {
+    margin: 0 auto;
+  }
+}

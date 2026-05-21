@@ -1,0 +1,17 @@
+.socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+  background-color: #aa9898;
+}
+
+.socials a {
+  font-size: 2rem;
+  color: rgb(150, 125, 125);
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}

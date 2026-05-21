@@ -1,0 +1,69 @@
+.inicio {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #222;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+}
+
+.btn,
+.btn-sale {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.destacados {
+  margin-top: 3rem;
+}
+
+.destacados h3 {
+  margin-bottom: 1rem;
+}
+
+.destacados-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  gap: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.banner-sale {
+  margin-top: 3rem;
+  background-color: rgb(160, 85, 100);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
