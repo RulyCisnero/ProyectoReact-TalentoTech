@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./TarjetaProducto.module.css";
+import {useCart} from "./../../Context/CartContext";
 
-function TarjetaProducto({ id, nombre, precio, imagen }) {
+function TarjetaProducto({ id, nombre, precio, imagen, detalle }) {
 
   const [favorito, setFavorito] = useState(false);
 
@@ -12,9 +13,12 @@ function TarjetaProducto({ id, nombre, precio, imagen }) {
     setFavorito(!favorito);
   };
 
+  const { addItem } = useCart();
+
   const handleVerDetalleClick = () => {
     navigate(`/producto/${id}`);
   };
+
 
   return (
     <div className="col-md-4 mb-4">
@@ -42,6 +46,13 @@ function TarjetaProducto({ id, nombre, precio, imagen }) {
               onClick={handleVerDetalleClick}
             >
               Ver detalle
+            </button>
+
+            <button
+              className="btn btn-success"
+              onClick={() => addItem({ id, nombre, precio, imagen, detalle })}
+            >
+              Agregar
             </button>
 
             <span

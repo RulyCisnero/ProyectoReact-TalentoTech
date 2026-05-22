@@ -5,6 +5,7 @@ import ListaProductos from "./componentes/productos/ListaProductos";
 import FormularioContainer from "./componentes/FormularioProducto/FormularioContainer";
 import Inicio from "./componentes/Inicio/Inicio";
 import { ItemDetailContainer } from "./componentes/productos/ItemDetailContainer";
+import Carrito from "./componentes/Carrito/Carrito";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/productos" element={<ListaProductos Mensaje="Productos Destacados" soloHotSale={false} />} />
         <Route path="/nuevo-producto" element={<FormularioContainer />} />
         <Route path="/producto/:id" element={<ItemDetailContainer />} />
+        <Route path="/carrito" element={<Carrito />} />
       </Route>
     </Routes>
   );
